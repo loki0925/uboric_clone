@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+</head>
+<body>
+    <div id="navbar"></div>
+    <div id="footer"></div>
+</body>
+</html>
+<script type="module">
+
+import navbar from "./comp/Navbar.js";
+console.log("navbar:",navbar);
+
+let header= document.getElementById("navbar");
+header.innerHTML=navbar();
+
+import footer from "./comp/footer.js";
+console.log("footer:",footer);
+
+let foooter = document.getElementById("footer");
+foooter.innerHTML=footer();
+</script>
