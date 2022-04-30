@@ -1,0 +1,118 @@
+#footer{
+    background-color: rgb(131,117,28);
+   padding-bottom:100px;
+}
+#foot1{
+    font-size:40px;
+line-height:170px;
+    text-align: center;
+    color: white;
+}
+#code{
+    margin-left:600px;
+    border-radius:50%;
+    margin-top:-100px;
+     
+}
+#let{
+    display: flex;
+    margin:180px;
+    gap:30px;
+
+}
+#let>div{
+    margin-top:-100px;
+    color: white;
+    font-size:22px;
+    line-height:40px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+#let1{
+    display: flex;
+    margin:180px;
+    gap:200px;
+}
+#let1>div{
+    margin-left:80px;
+    margin-top:-100px;
+    color: white;
+    font-size:20px;
+    line-height:40px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+#let2>img{
+   
+    width:80px;
+    height:25px;
+}
+#let2{
+     
+    display: flex;
+    gap:5px;
+}
+#let3>div{
+    margin-left:30px;
+    color:white;
+}
+#let3{
+   
+    display: flex;
+    margin:180px;
+    gap:200px;
+    margin-top:-200px;
+}
+#let2>p{
+    line-height:1px;
+}
+#btn{
+    margin-left:600px;
+    background-color:rgb(255,206,97);
+    width:200px;
+    height:50px;
+  margin-top:-100px;
+  text-align:center;
+  line-height:50px;
+  font-size:18px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+   /* new div start */
+#foot2{
+ background-color: black;
+ padding-bottom:50px;
+}
+#playstore{
+    margin-left:600px;
+    margin-top:100px;
+}
+#newnav{
+    display:flex;
+    color: white;
+    margin-left:250px;
+    margin-top:20px;
+    gap:40px;
+    font-size:15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#newnav>div:hover{
+    color:yellow;
+}
+#disp{
+    margin-left:550px;
+    margin-top:30px;
+    /* color:white; */
+    font-size:15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#maja{
+    display:flex;
+    gap:10px;
+    margin-left:650px;
+    margin-top:30px;
+}
+#face>img{
+    width:40px;
+    height: 40px;
+}
