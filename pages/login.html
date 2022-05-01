@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../styles/navbar.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/login.css">
+</head>
+<body>
+    <div id="navbar"></div>
+      
+    <div id="feel">My Account</div>
+    <div id="glam"></div>
+    <div id="bigg">
+        <div id="bom1">
+            <div id="grei">Login</div>
+            <div>
+                <div id="marn">Connect With</div>
+                <div id="marked"><img src="https://onymos.com/wp-content/uploads/2020/10/google-signin-button-1024x260.png" alt=""></div>
+            </div>
+            <div id="bunnoo">
+                <label for="">Username or email address *</label><br>
+                <input type="text" name="" id="bunno">
+            </div>
+            <div id="bunnoo">
+                <label for="">Password*</label><br>
+                <input type="text" name="" id="bunno">
+            </div>
+            <div id="bhuk">
+                <div>
+                <input type="radio">
+                <label for="">Remember me</label>
+                </div>
+                <div id="fond"><a href="../index.html" id="loggr">Log In</a></div>
+            </div>
+        </div>
+        <div id="bom2">
+            <div id="grei">Register</div>
+            <div id="vssu">Creating an account is quick and easy, and will allow you to move through our checkout quicker.</div>
+            <div id="bunnoo">
+                <label for="">Email address *</label><br>
+                <input type="text" name="" id="bunno">
+            </div>
+            <div id="vssu">A link to set a new password will be sent to your email address.</div>
+            <div id="vssu">Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our privacy policy.</div>
+            <div id="fond"><a href="./" id="loggr">Register</a></div>
+        </div>
+    </div>
+            
+    <div id="footer"></div>
+</body>
+</html>
+<script type="module">
+
+    import navbar from "../comp/navbar.js";
+    console.log("navbar:",navbar);
+    
+    let header= document.getElementById("navbar");
+    header.innerHTML=navbar();
+    
+    import footer from "../comp/footer.js";
+    console.log("footer:",footer);
+    
+    let foooter = document.getElementById("footer");
+    foooter.innerHTML=footer();
+</script>
+<script src="../js/login.js"></script>
