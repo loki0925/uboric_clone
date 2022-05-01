@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="../styles/navbar.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/checkout.css">
+</head>
+
+<div id="navbar"></div>
+<div id="feel">Checkout</div>
+<div id="glam"></div>
+<div id="dodo">Have a coupon? Click here to enter your code</div>
+<div id="fall">
+    <div id="grew2">
+        <div id="mann">Billing details :</div>
+        <form action="" id="forem">
+            <div id="grain">
+                <label for="">First Name : </label>
+
+                <label id="lastname" for="">Last Name :</label>
+
+            </div>
+            <div>
+                <input id="name" type="text">
+                <input id="name" type="text">
+            </div>
+            <div>
+                <label for="">Company Name(Optional)</label>
+
+            </div>
+            <div>
+                <input id="name2" type="text">
+            </div>
+            <div>
+                <label for="">Country/Reigion</label>
+
+            </div>
+            <div>
+                <input id="name2" type="text">
+            </div>
+            <div>
+            <label for="">Address</label>
+            </div>
+            <div>
+            <input id="name2" type="text" placeholder="House Nummber Street Name">
+            </div>
+            <div id="grain">
+                <label for="">Town/City</label>
+
+                <label id="lastname" for="">State/Country</label>
+
+            </div>
+            <div>
+                <input id="name" type="text">
+                <input id="name" type="text">
+            </div>
+            <div id="grain">
+                <label for="">Postal/Zip</label>
+
+                <label id="lastname" for="">Phone</label>
+
+            </div>
+            <div>
+                <input id="name" type="text">
+                <input id="name" type="text">
+            </div>
+            <div id="grain">
+                <label for="">Alternate phone</label>
+
+                <label id="lastname" for="">Email Address</label>
+
+            </div>
+            <div>
+                <input id="name" type="text">
+                <input id="name" type="text">
+            </div>
+        </form>
+    </div>
+    <div id="grew1">
+        <div id="taal">
+            <div>Product</div>
+            <div>Total</div>
+        </div>
+        <hr />
+        <div id="boone">
+            <div>Total Bill</div>
+            <div>
+                <h4 id="pricee">Rs.4599</h4>
+            </div>
+        </div>
+        <hr />
+        <div id="newlog"><a href="./login.html" id="newlog1">Returning customer? Click here to login</a></div>
+        <div id="soop">
+            <ul> Guaranteed delivery with 100% original products</ul>
+            <ul>COD available on some categories</ul>
+            <ul>FOR ONLINE PAYMENT EXTRA ₹100 DISCOUNT ON ORDERS ABOVE ₹500</ul>
+            <ul>EMI OPTION AVAILABLE</ul>
+            <ul>TO AVAIL MORE BANK OPTIONS ON EMI PURCHASE ABOVE RS. 3000</ul>
+            <ul>FREE SHIPPING ON PREPAID ORDERS & ALSO GET EXTRA ₹100 DISCOUNT ON PREPAID ORDERS ABOVE ₹500</ul>
+            <ul>FREE SHIPPING ABOVE ₹500 ON PREPAID AND COD ORDERS</ul>
+        </div>
+        <div id="burn">Unavailable by restricted product category</div>
+        <div id="cca">
+            <div> CCAvenue</div>
+            <div><img
+                    src="https://www.uboric.com/wp-content/plugins/ccavanue-woocommerce-payment-getway/images/logo.png"
+                    alt=""></div>
+        </div>
+        <div id="hean">Pay securely by EMI, UPI ,Credit or Debit card or internet banking.</div>
+        <div>
+            <hr>
+            <input type="radio">
+            <label for="">Pay With Paytm</label>
+            <hr>
+            <input type="radio">
+            <label for="">Razor Pay</label>
+            <hr>
+        </div>
+        <div id="fond"><a href="./place.html" id="placeorder">Place Order</a></div>
+    </div>
+</div>
+</div>
+<div id="footer"></div>
+</body>
+
+</html>
+<script type="module">
+
+    import navbar from "../comp/navbar.js";
+    console.log("navbar:", navbar);
+
+    let header = document.getElementById("navbar");
+    header.innerHTML = navbar();
+
+    import footer from "../comp/footer.js";
+    console.log("footer:", footer);
+
+    let foooter = document.getElementById("footer");
+    foooter.innerHTML = footer();
+</script>
+<script src="../js/checkout.js"></script>
