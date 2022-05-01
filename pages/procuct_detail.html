@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="../styles/navbar.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/product_details.css">
+</head>
+<body>
+    <div id="navbar"></div>
+        
+        
+    <main>
+        <section class="display-grid">
+          <aside id="img-section" class="display-flex">
+              <img src="https://www.uboric.com/wp-content/uploads/2021/12/81oIinPi8L._SL1500_-1-400x531.jpg"/>
+          </aside>
+          <aside id="details-section">
+            <div class="nav-path">
+              <a href="./../home.html">Home</a> <span>></span>
+              <a href="#">Products</a>
+              <span>></span>
+              <a href="#" id="category"> Water Bottles</a>
+              <span></span>
+              <span class="prod-name"></span>
+            </div>
+  
+            <div class="product-info">
+              <h4 class="prod-name"></h4>
+              <p class="price">
+                <span class="line-through"></span>
+                <span class="old-price">₹1900.00</span>
+                <span class="new-price">₹1399.00</span>
+                <span>(Inclusive of all taxes)</span>
+              </p>
+            </div>
+  
+            <div class="guarantee-box">
+              <img
+                src="https://www.uboric.com/wp-content/uploads/2020/12/guarantee.svg"
+                alt="100% Guarantee"
+              />
+            </div>
+  
+            <article class="facility-box display-grid">
+              <div>
+                <p>
+                  <i class="fas fa-money-bill-alt"></i>
+                </p>
+                <p>7days Return</p>
+              </div>
+  
+              <div>
+                <p>
+                  <i class="fas fa-headphones"></i>
+                </p>
+                <p>24/7 Online<br />Support</p>
+              </div>
+  
+              <div>
+                <p>
+                  <i class="fa fa-shopping-bag"></i>
+                </p>
+                <p>Fast Delivery in<br />India</p>
+              </div>
+  
+              <div>
+                <p>
+                  <i class="fa fa-credit-card"></i>
+                </p>
+                <p>Secure<br />Payment</p>
+              </div>
+            </article>
+  
+            <h2>HURRY! ONLY <span>100</span> LEFT IN STOCK.</h2>
+  
+            <div class="bar"></div>
+            <p class="stock-status"><i class="far fa-smile"></i>100 in stock</p>
+  
+            <article class="add-to-cart display-flex">
+              <input class="product-count" type="number" min="1" value="1" />
+              <button class="primary-btn add-in-cart">ADD TO CART</button>
+            </article>
+  
+            <!-- <article>
+              <button class="primary-btn add-in-cart">SEND ENQUIRY</button>
+            </article> -->
+          </aside>
+        </section>
+        <section class="extra-details">
+          <h2 class="description">Description</h2>
+          <p class="prod-name"></p>
+  
+          <p class="prod-description"></p>
+  
+          <table>
+            <tr class="row">
+              <td>Price</td>
+              <td class="new-price"></td>
+            </tr>
+            <tr class="row">
+              <td>Brand Name</td>
+              <td class="brand">Amora</td>
+            </tr>
+          </table>
+        </section>
+        <section></section>
+      </main>
+
+
+     <div id="footer"></div>    
+</body>
+</html>
+<script type="module">
+
+    import navbar from "../comp/Navbar.js";
+    console.log("navbar:",navbar);
+    
+    let header= document.getElementById("navbar");
+    header.innerHTML=navbar();
+    
+    import footer from "../comp/footer.js";
+    console.log("footer:",footer);
+    
+    let foooter = document.getElementById("footer");
+    foooter.innerHTML=footer();
+</script>
