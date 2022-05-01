@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cart</title>
+    <link rel="stylesheet" href="../styles/navbar.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/cart.css">
+</head>
+<body>
+    <div id="navbar"></div>
+                    
+    <div id="feel">Cart</div>
+    <div id="glam"></div>
+    <div id="offer1">Amazing Offers on Checkout</div>
+    <div id="van">
+        <div>Product</div>
+        <div>Product Name</div>
+        <div>Price</div>
+        <label for="">Subtotal</label>
+        <div id="total-div"> <h2 id="total-price">
+            <!--Show cart total here, do not add anything only Total value. Not even "Total - 1200Rs" but like this "1200" -->
+          </h2></div>
+    </div>
+    <div id="grand2">
+        <div id="first1">
+    <div id="cart"></div>
+    </div>
+    <div id="first2">
+    <div id="tom">Cart totals</div>
+    <div id="fack"> 
+        <div>Subtotal</div>
+        <div><h4 id="price">
+            <!--Show cart total here, do not add anything only Total value. Not even "Total - 1200Rs" but like this "1200" -->
+          </h4></div>
+    </div>
+    <div id="bond"><a href="./checkout.html" id="checkout">Proceed To Checkout</a></div>
+    </div>
+    </div>
+
+    <div id="footer"></div>
+</body>
+</html>
+<script type="module">
+
+    import navbar from "../comp/Navbar.js";
+    console.log("navbar:",navbar);
+    
+    let header= document.getElementById("navbar");
+    header.innerHTML=navbar();
+    
+    import footer from "../comp/footer.js";
+    console.log("footer:",footer);
+    
+    let foooter = document.getElementById("footer");
+    foooter.innerHTML=footer();
+</script>
+<script src="../js/cart.js"></script>
