@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Procuts</title>
+    <link rel="stylesheet" href="../styles/navbar.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/product.css">
+</head>
+<body>
+    <div id="navbar"></div>
+                    
+    <div id="feel">Kitchen Tools</div>
+    <div id="glam"></div>
+    <div id="hero">
+        <div>
+    <span class="price-title"> BY PRICE</span>
+    <div class="wrapper">
+        <fieldset class="filter-price">
+      
+          <div class="price-field">
+            <input type="range" min="100" max="500" value="135" id="lower">
+            <input type="range" min="100" max="500" value="500" id="upper">
+          </div>
+          <div class="price-wrap">
+            <div class="price-container">
+              <div class="price-wrap-1">
+      
+                <label for="one">Rs.</label>
+                <input id="one">
+              </div>
+              <div class="price-wrap_line">-</div>
+              <div class="price-wrap-2">
+                <label for="two">Rs.</label>
+                <input id="two">
+      
+              </div>
+            </div>
+          </div>
+        </fieldset>
+      </div>
+      <header>
+          <span class="price-title">Products Categories</span>
+        <div class="logo">
+        </div>
+        <nav>
+          <ul>
+            <li id="car"><a href="#">Air Tight Containers(4)</a></li>
+            <li id="car"><a href="#">Kitchen Tools(155)</a></li>
+          </ul>
+        </nav>
+    </header>
+      <hr/>
+      </div>
+      <div>
+     <div id="faccct"></div>
+     </div></div>
+
+    <div id="footer"></div>
+</body>
+</html>
+<script type="module">
+
+    import navbar from "../comp/Navbar.js";
+    console.log("navbar:",navbar);
+    
+    let header= document.getElementById("navbar");
+    header.innerHTML=navbar();
+    
+    import footer from "../comp/footer.js";
+    console.log("footer:",footer);
+    
+    let foooter = document.getElementById("footer");
+    foooter.innerHTML=footer();
+</script>
+<script src="../js/product.js"></script>
