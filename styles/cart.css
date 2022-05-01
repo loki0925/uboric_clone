@@ -1,0 +1,103 @@
+#feel{
+    margin-top:30px;
+    margin-left: 600px;
+    font-size:28px;
+    color:rgb(39,81,80);
+}
+#glam>div{
+    color:rgb(78, 64, 64);
+    font-size:10px;
+    display: flex;
+    gap:5px;
+    margin-left:70px;
+    margin-bottom:-50px;
+    font-weight: lighter;
+    margin-bottom:20px;
+}
+#funny{
+    display: flex;
+    gap:5px;
+   
+}
+#funny>img{
+    margin-top:10px;
+    width:20px;
+    height:20px;
+}
+#glam{
+    margin-top:-10px;
+    margin-left:510px;
+  
+} 
+
+#offer1{
+    margin-left:250px;
+    background-color: rgb(206,73,137);
+    color: white;
+    width:800px;
+    height:50px;
+    font-size:25px;
+    text-align: center;
+    line-height:50px;
+}
+#cart>div{
+    display: flex;
+    gap:10px;
+   
+}
+#cart>div>img{
+    width:100px;
+}
+#cart>div>button{
+    width:70px;
+    height:30px;
+    margin-top:15px;
+}
+#van{
+    margin-top:100px;
+    font-size:20px;
+    margin-left:45px;
+    display: flex;
+    gap:80px;
+}
+#tom{
+    font-size:30px;
+    margin-top: 20px;
+    margin-left:20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#fack{
+    display: flex;
+    gap:30px;
+    margin-left:20px;
+    margin-top:50px;
+}
+#price{
+    margin-top:-1px;
+}
+#checkout{
+    margin-top:50px;
+    margin-left:30px;
+  
+    text-decoration: none;
+}
+#bond{
+    margin-top: 50px;
+    background-color:yellow;
+    color: black;
+    margin-left:20px;
+    border:1px solid black;
+    height:50px;
+    width:300px;
+    font-size:20px;
+    text-align: center;
+    line-height:50px;
+}
+#grand2{
+    display: flex;
+    gap:200px;
+}
+#bond:hover{
+    background-color: white;
+    color: black;
+}
