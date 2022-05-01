@@ -1,0 +1,180 @@
+#feel{
+    margin-top:30px;
+    margin-left: 600px;
+    font-size:28px;
+    color:rgb(39,81,80);
+}
+#glam>div{
+    color:rgb(78, 64, 64);
+    font-size:10px;
+    display: flex;
+    gap:5px;
+    margin-left:100px;
+    margin-bottom:-50px;
+    font-weight: lighter;
+    margin-bottom:20px;
+}
+#funny{
+    display: flex;
+    gap:5px;
+   
+}
+#funny>img{
+    margin-top:10px;
+    width:20px;
+    height:20px;
+}
+#glam{
+    margin-top:-10px;
+    margin-left:510px;
+  
+} 
+#dodo{
+    margin-left:150px;
+   width:1000px;
+   height:60px;
+   font-size:18px;
+   text-align:center;
+   line-height:50px;
+   background-color: black;
+   color: white;
+}
+#grain{
+    display: flex;
+    gap:30px;
+    margin-top:20px;
+    text-align: center;
+}
+#forem{
+    font-size:20px;
+   
+    margin-left:150px;
+    margin-top:30px;
+}
+#forem>input{
+    width:300px;
+   
+}
+#mann{
+margin-left:150px;
+font-size:25px;
+margin-top:20px;
+margin-bottom:20px;
+}
+#fall{
+    display: flex;
+    gap:20px;
+}
+#taal{
+    width: 300px;
+    font-size: 25px;
+    display: flex;
+     gap:100px;
+    margin-left:100px;
+    margin-top:30px;
+}
+#boone{
+    width: 300px;
+    font-size: 25px;
+    display: flex;
+     gap:100px;
+    margin-left:100px;
+    margin-top:30px;
+}
+#boone>div>h4{
+    margin-top:-3px;
+}
+#newlog{
+    margin-left:20px;
+    margin-top:20px;
+    font-size:20px;
+    
+   
+}
+#newlog1{
+    margin-top:50px;
+    margin-left:30px;
+    color: white;
+    text-decoration: none;
+}
+#newlog{
+    margin-top: 50px;
+    background-color:black;
+    color: white;
+    margin-left:20px;
+    border:1px solid black;
+    height:50px;
+    width:350px;
+    font-size:20px;
+    text-align: center;
+    line-height:50px;
+}
+#soop{
+    margin-left:20px;
+    margin-top:30px;
+    font-size:20px;
+    width:400px;
+    border:1px solid black;
+    color:green;
+}
+#burn{
+    margin-top: 30px;
+    background-color:black;
+    color: white;
+    margin-left:20px;
+    border:1px solid black;
+    height:50px;
+    width:400px;
+    font-size:20px;
+    text-align: center;
+    line-height:50px; 
+}
+#cca{
+    display: flex;
+    gap:240px;
+    font-size:18px;
+    margin-top:50px;
+    margin-left:20px;
+}
+#cca>div>img{
+    width:100px;
+    height: 50px;
+}
+#hean{
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+    width:400px;
+}
+#placeorder{
+    margin-top:50px;
+    margin-left:30px;
+     color: black;
+    text-decoration: none;
+}
+#fond{
+    margin-top: 50px;
+    background-color:yellow;
+    color: black;
+    margin-left:20px;
+    border:1px solid black;
+    height:50px;
+    width:300px;
+    font-size:20px;
+    text-align: center;
+    line-height:50px;
+}
+#name{
+    height: 30px;
+    width:300px;
+}
+#lastname{
+    margin-left: 195px;
+}
+#name2{
+    height: 30px;
+    width:610px;
+}
+#forem>div{
+    margin-top: 10px;
+}
