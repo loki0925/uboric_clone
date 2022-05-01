@@ -18,10 +18,15 @@ body{
 #first3{
     height:20px;
     width:80px;
+    
+}
+#first3> button{
+    background-color:#222222;
 }
 #first4>img{
-   height:100px;
-   width:250px;
+   height:75px;
+   width:200px;
+   margin-left: -180px;
 }
 #first5{
     display:flex;
@@ -29,6 +34,7 @@ body{
 #first6>img{
     height:50px;
     width:50px;
+    margin-right: 30px;
 }
 #first7>img{
     height:50px;
@@ -37,24 +43,28 @@ body{
 #Profile{
     display:flex;
     justify-content: space-around; 
-    margin-top:20px;
+    margin-top:10px;
     margin-left:-40px;
 }
 #nav{
     display: flex;
    margin-left:300px;
-    gap:30px;
-    font-size:20px;
+    gap:20px;
+    font-size:16px;
     margin-top:20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:600 ;
    
 }
 #nav>a{
     text-decoration:none;
     margin-top: 10px;
     color: black;
+    
 }
 #nav>div{
    padding:10px;
+   
 }
 #nav>div:hover{
     background-color: black;
@@ -63,15 +73,25 @@ body{
 #searchbar{
     width:350px;
     height:30px;
+    margin-left: -50px;
+    font-size: 14px;
+    font-style: black;
+    
+    font-weight: 500;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 
 #greatdrop {
-    font-size: 17px;
+    font-size: 16px;
     border: none;
     outline: none;
    color: black;
    background-color: white;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-weight:600 ;
   }
   
   #drop{
