@@ -44,44 +44,57 @@ window.addEventListener("load",function(){
     createdata(addfont);
 })
 
-   addfont.forEach(function(temp,index){
+addfont.forEach(function (temp, index) {
  
-    let div=document.createElement("div");
+    let div = document.createElement("div");
 
     
-    let name=document.createElement("p");
-    name.innerText=temp.title;
+    let name = document.createElement("p");
+    name.innerText = temp.title;
     console.log(name);
 
-    let price=document.createElement("p");
-    price.innerText=`₹${temp.price}`;
-       cost = Number(cost) + Number(temp.price);
-       console.log(cost);
+    let price = document.createElement("p");
+    price.innerText = `₹${temp.price}`;
+    cost = Number(cost) + Number(temp.price);
+    console.log(cost);
        
 
-    let img=document.createElement("img");
-    img.src=temp.imgUrl;
+    let img = document.createElement("img");
+    img.src = temp.imgUrl;
     console.log(img);
 
-    let del=document.createElement("button");
-    del.innerHTML="Remove";
-    del.addEventListener("click",function(){
+    let del = document.createElement("button");
+    del.innerHTML = "Remove";
+    del.addEventListener("click", function () {
+               
+        let total=addfont.reduce(function(acc,cv){
+            return acc+Number(cv.price);
+        },0);
+     
+        
+        document.querySelector("#total-price").textContent = `₹${total}`;
+        document.querySelector("#price").textContent = `₹${total}`;
         div.innerHTML = null;
         deleteT(index);
+     
+        
         
     })
 
-    div.append(img,name,price,del);
+    div.append(img, name, price, del);
 
     container.append(div);
 
 
-   })
-   localStorage.setItem("price12", JSON.stringify(cost));
+});
+
+    
+
 
    let total=addfont.reduce(function(acc,cv){
        return acc+Number(cv.price);
-   },0);
+   }, 0);
+   localStorage.setItem("price12", JSON.stringify(total));
 
    document.querySelector("#total-price").textContent=`₹${total}`;
    document.querySelector("#price").textContent=`₹${total}`;
