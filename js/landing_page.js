@@ -74,7 +74,7 @@ var x;
         let img=document.createElement("img");
         img.src=elm.due1;
         img.addEventListener("click",function(){
-            window.location.href="kitchen.html";
+            window.location.href="../pages/product_page.html";
         })
 
         let img1=document.createElement("img");
@@ -86,7 +86,7 @@ var x;
         let img2=document.createElement("img");
         img2.src=elm.due3;
         img2.addEventListener("click",function(){
-            window.location.href="lighter.html";
+            window.location.href="../pages/product_page.html";
         })
 
         div.append(img,img1,img2);
