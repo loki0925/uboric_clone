@@ -179,7 +179,10 @@ newData.forEach(function(ele,index){
   let div = document.createElement("div");
 
   let img=document.createElement("img");
-  img.src=ele.imgUrl;
+    img.src = ele.imgUrl;
+    img.addEventListener("click", function () {
+        window.location.href = "./procuct_detail.html"
+    })
 
   let title=document.createElement("p");
   title.innerText=ele.title;
