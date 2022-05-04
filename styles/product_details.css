@@ -13,6 +13,10 @@
 .display-flex {
   display: flex;
 }
+.display-flex >img{
+ width: 200px;
+ height: 520px;
+}
 
 .display-grid {
   display: grid;
