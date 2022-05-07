@@ -35,6 +35,9 @@ text1.forEach(wel=>{
 })
 var name = document.getElementById("pricee")
 var name1 = JSON.parse(localStorage.getItem("price12"))
-console.log(name1)
+// console.log(name1)
+
+
+
 
 document.getElementById("pricee").innerText = `Rs ${name1}`;
