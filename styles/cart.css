@@ -95,7 +95,7 @@
 }
 #grand2{
     display: flex;
-    gap:200px;
+    gap: 199px;
 }
 #bond:hover{
     background-color: white;
